@@ -39,9 +39,9 @@ header {
 /*=========ME=========*/
 
 .me-img {
-    scale: 79%;
-    
-}
+  scale: 180%;
+  margin: auto ;
+}  
 
 .me {
     background: linear-gradient(var(--color-primary),transparent);
@@ -49,14 +49,14 @@ header {
     width: 22rem;
     height: 30rem;
     position: absolute; 
-    /* left: 50%;
-    transform: translateX(-50%); */
+    left: 50%; 
+   
     left: calc(50% - 11rem); 
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
-}
+    overflow: hidden; 
+    padding: 5rem 1.5rem 1.5rem 1.5rem; 
+ } 
 
 /* =====Scroll down===== */
 
@@ -73,7 +73,7 @@ header {
 
 @media screen and (max-width: 1024px) {
    header {
-    height: 95vh;
+    height: 82vh;
    }
 
   
@@ -83,9 +83,15 @@ header {
 
 /* Media Queries Small Devices */
 
+
+
 @media screen and (max-width: 600px) {
+   
+    
    header {
     height: 100vh;
+    
+
    }
    .header__socials,.scroll__down{
     display: none;

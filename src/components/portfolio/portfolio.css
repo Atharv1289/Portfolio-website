@@ -19,7 +19,10 @@
 }
 
 .image-portfolio {
+    border-radius: 1.5rem;
     aspect-ratio: 4/3;
+    
+
 }
 
 .portfolio__item-image{

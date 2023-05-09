@@ -26,7 +26,7 @@ const data = [
     title: 'Study Notion web App',
     image: IMG3,
     github: 'https//github.com',
-    demo : 'https://studynotionproject.netlify.app/signup'
+    demo : 'https://studynotionproject.netlify.app/'
 
   }
 ]
